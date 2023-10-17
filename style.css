@@ -15,6 +15,10 @@ header {
 .navbar{
   display: flex;
 }
+.nav-links a:hover{
+  background-color:aquamarine;
+} 
+
 /* image logo */
 .docplanner-logo {
   width: 70%;
@@ -43,6 +47,7 @@ header {
 }
 .header{
     position:sticky;
+    background-color: white;
     top:0;
     width:80%;
     padding:15px 100px;
@@ -217,7 +222,6 @@ img{
 }
 .statintroduction h1 {
     color: rgb(0,191,165);
-    font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 7%;
 }
 .statintroduction p {
@@ -295,25 +299,26 @@ img{
 /* modification of image in the boxs */
 .offices-box-image img{
   height: 200px;
-    width: 100%;
+  width: 100%;
 }
-.officescolomn1 {
+.officesrow1 {
   display: flex;
   justify-content: space-evenly;
 }
-.officescolomn2 {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 3%;
-}
-.officescolomn3 {
+.officesrow2 {
   display: flex;
   justify-content: space-evenly;
   margin-top: 3%;
 }
-.officescolomn4 {
+.officesrow3 {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 3%;
+}
+.officesrow4 {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 95px;
   margin-top: 3%;
   
 }
@@ -327,7 +332,7 @@ img{
 }
 .opening-information {
   text-align: right;
-  margin-top: -17%;
+  margin-top: -14%;
 }
 .opening-information input {
   background-color: rgb(22,98,198);
@@ -356,8 +361,9 @@ footer{
   color: grey;
 }
 .footter{
-  display: inline;
+  display: inline; 
   text-align: center;
+  align-content: flex-start;
 }
 /* list of the header */
 .lastlist a{
